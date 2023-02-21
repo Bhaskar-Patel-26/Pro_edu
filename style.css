@@ -1,0 +1,40 @@
+
+.course-img{
+    height: 150px;
+}
+
+#companies > img{
+    height: 20px;
+    margin: 20px;
+}
+
+.pro-edu {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: popins;
+}
+
+#comanies{
+    display: block;
+}
+
+#btn-register{
+    position: absolute;
+    right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    div.example{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #btn-rgister{
+        display: none;
+    }
+    div.example{
+        display: none;
+    }
+}
